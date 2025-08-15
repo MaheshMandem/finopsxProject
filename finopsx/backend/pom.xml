@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.finopsx</groupId>
+    <artifactId>backend</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>payment-service</module>
+        <module>gateway-service</module>
+        <module>auth-service</module>
+        <module>compliance-service</module>
+        <module>notification-service</module>
+        <module>common-lib</module>
+    </modules>
+</project>
